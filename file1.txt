@@ -1,2 +1,3 @@
 react project
 studing about redux today
+Studing redux
