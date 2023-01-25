@@ -1,21 +1,27 @@
-react project
-studing about redux today
-Studing redux
-kk
-oops
-redux 
-should start
-i should really start
-whenn??
-ddd
-hhh
+Redux is a state management system for cross - component or app-wide state.
 
-LoL
 
-whennn?
-from tomorrow
+There are 3 states:
+1.Local State - state belonging to single component (eg: toggle a button or input field) managed by UseState() or UseReducer()
+2.Cross-Component State - multiple component (eg: buttons opening models) requires prop chains or prop drilling
+3.App-Wide State - State that affects the entire app (eg:user authentication) managed by useState and requires prop chains and prop drilling
+EVEN REACT CONTEXT HELPS WITH STATE MANAGEMENT Which avoids prop chains and prop drilling 
 
-hghhghghgffghgvhfgv
-WWWWW
-llllll
+
+Difference b/w redux and react CONTEXT
+REACT CONTEXT Disadvantages
+1.Complex setup , end up with deeply nested jsk code
+2.Can use when data doesnt change or with low frequency data 
+Hence , we use Redux
+
+
+Core Redux concepts
+There is one central data (state) , all data or state here eg: authentication state , button state
+Its like component is subscribed to central data 
+Components dont directly manipulate data in the store
+For this we use fucntion called Reducer which is used for changing data and is NOT useReducer() hook
+How to connect these?
+There is actions here . Action is simple . It dispatches from action and forwarded to reducer function which performs the action
+
+
 
