@@ -22,7 +22,8 @@ Components dont directly manipulate data in the store
 For this we use fucntion called Reducer which is used for changing data and is NOT useReducer() hook
 How to connect these?
 There is actions here . Action is simple . It dispatches from action and forwarded to reducer function which performs the action
-.....
 
+Project
+Refer README.md and folder is .vsCode
 
 
