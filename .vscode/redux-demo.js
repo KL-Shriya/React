@@ -1,7 +1,9 @@
 
+
 const redux = require('redux'); //importing
-const redux_mock_store = require("redux-mock-store")
-const configureStore = redux_mock_store.configureStore
+
+
+
 
 const counterReducer = (state = {counter: 0},action) => {
     return {
@@ -16,3 +18,5 @@ const counterSubscriber = () => {
  console.log(latestState);
 }; //to get latest state
 store.subscribe(counterSubscriber);
+
+store.dispatch({type: 'increment'});

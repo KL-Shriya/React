@@ -1,5 +1,5 @@
 # React
-#redux
+#redux without react(v-5)
 This is a redux project
 Create a folder(.vscode) 
 Create a file (redux-demo)
@@ -13,8 +13,10 @@ In the file - (redux- demo.js)
  We have both store and reducer , they work together to get state
 4. We add another reducer function for change of state called subsriber function 
 We have reducer and subscriber
+5. write dispatch function 
 
-
+#redux with react application(v-7)
+1. 
 
 
 
