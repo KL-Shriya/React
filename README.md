@@ -81,3 +81,5 @@ SO, BASICALLY
 4. We export them 
 5. Now in the component , import useSelector
 6. call useSelector and pass function and state as argument  i.e, useSelector(state => state.auth.isAuthenicated) where auth used in store and isAuthenticated used and assign to an identifer
+7. Inside the store we use 
+8. This is redux
