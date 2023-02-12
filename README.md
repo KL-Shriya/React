@@ -84,4 +84,3 @@ SO, BASICALLY
 7. Inside the store we use 
 8. This is redux
 9. complete program
-10. yyyy
